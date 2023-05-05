@@ -1,0 +1,69 @@
+	
+Installation Testing:-->
+
+	=> Installation testing conduct most commonly on Desktop softwares
+	=> To conduct installation testing tester follow below steps 
+
+	1.Verify set up program execute to start installation
+	2.Verify friendliness of screens while installation
+	3.Verify occupied space after installation
+	4.verify Un install process
+	5.Verify user can cancel installation any time..
+	6.Verify installation asking accept license agreement.
+	7.Verify re installation of software
+	8.Verify installation will continue after Restart Computer
+	9.Verify installation in different compatible operating systems
+	10.Verify Next button is disabled until user select license agreement
+	11.Verify installation accept minimize and maximize feature
+	12.Verify time taking for installation
+	13.Verify process bar showing accurate result during installation
+	14.Verify installation completed message displayed 
+	15.Verify Error dialog displayed for installation failures
+	16.Verify installation happend at required folder
+	17.Verify application shorcut created at desktop
+	18.Verify supporting parallel installation
+
+
+Globalization Testing.
+	Globalization is a process of designing a software 
+	application so that it can be adapted to various languages 
+	and regions without any changes.
+
+	Internationalization (l18N):--> refer globalization
+
+	Example:-->
+		Amazon website allowed to access same interfaces 
+		in India,UK,USA ----etc regions.
+
+Multy languity testing:
+
+	some times developers are developing a s\w in java unicode or .net 		with unicode this type  of sofware provide output in differnt 			lanaguge and by taking input in one language.
+
+Recovery Testing:-->
+	Recovery testing is performed in order to determine how quickly 
+	the system can recover after the system crash or hardware 
+	failure. It comes under the type of nonfunctional testing.
+	Recovery testing done by the system networking  and hardware team.
+
+
+Compliance testing:-->
+
+	A compliance test is an audit that determines whether an organization 	is following its own policies and procedures in a particular area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
