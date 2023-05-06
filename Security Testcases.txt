@@ -1,0 +1,45 @@
+
+
+Security Testcases:-->
+
+	=> 1. Verify invalid credentials that cannot be entered less than 6
+		characters and password should not be the same.
+
+	=> 2. Verify system should restrict accessing previous pages after 
+		Sign out.
+		
+	=> 3. Verify bookmarked pages asking to re enter authentication
+
+	=> 4. Verify bookmark option disabled on secured pages
+
+	=> 5. Verify system restricted user to view source
+
+	=> 6. Verify Right click option is disabled
+
+	=> 7. Verify your server lock out when individual who has tried to 
+      		Access a site multiple times with invalid user account.
+
+	=> 8. Verify system ask user to login again after timeout finished
+
+	=> 9. Verify preventing software access. when user try direct url 			entry to access  secured pages.
+
+	=> 10. Verify the same account login at diff machines. [At a time 			only one user login into system]
+
+	=> 11. Verify that error message doesn't contain malicious info so 			that hacker can’t hack website.
+
+	=> 12. Verify input fields restrict html and xml tags injection.
+
+	=> 13. Verify data protected in database should display user 				passwords in encrypted  format.
+
+	=> 14. Verify system restricted guessing passwords using hacking 			software [brute force attack] [test with simple login with 		admin password]
+
+	=> 15. Verify software is  restricted to access from different 				portals when User have permission to access using single 		gateway.
+
+	=> 16. Verify cookies storing restricted on secured page
+
+
+=============================================================================================================
+
+
+Write a testcase for online exam:-->
+	[Once Exam started you can't use your browser]
