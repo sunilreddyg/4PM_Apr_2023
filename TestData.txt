@@ -1,0 +1,70 @@
+TestData:-->
+
+	=> Most of the cases Client provide test data to testing 
+	  team,  before start test execution. 
+	  But in some cases testing team prepare sample data according to 
+	  special requirements.
+
+	
+	Que:--> How testing team know testdata specification:-->
+			=> What kind of field?
+			=> What range it accept?
+			=> What is the object type?
+
+	Ans:-->
+		Testing team receive usecase document, This document contains 
+		special requirements for each and every field..
+
+	Que:--> what if special requirements not defined for any filed.
+	
+	=> Testing team also can retrieve test data from database. 
+	    To retrieve testdata from databtase in market 
+	    there are many data genarator tools are available.
+
+	TOAD:--> Tools is used to pull testable data from database..
+
+	=> Tester conduct exploratory testing without knowing client requirement
+
+
+	Test Data available in two categories:-->
+
+			1. Real Data
+			2. Dummy Data
+
+	RealData:-->
+		=> Real data provided by the client before 
+		   execution of your tests.
+		=> Testing team also can retrieve data 
+	           from production database.
+
+		AccountNumbers:-->
+			180023456789
+			180032455879
+		
+		University Listbox:-->
+			SV university
+			JNTU university
+
+		Emails and Passwords:-->[Valid Data]
+			qadarshan@gmail.com
+			Hello@12345
+	
+	DummyData:-->
+				
+	Testing team prepare dummy data inorder to test software 
+	Fistname Entry :--[3-100][only Alphabets][Spaces allowed]
+
+		Valid Data  :-->   abc,abcd----upto[100]
+
+		InValid Data:-->   ab,abced----upto[101]
+
+
+SqlInjection:-->
+	Que : What If parent module is under construction and we 
+	must take data from parent module inorder to test child modules.		
+					
+	=> Testing team can inject dummy testdata to database by executing
+	      database statements.
+	=> Using API's also we can inject real testable 
+	      data to software
+	
